@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { projectFirestore, projectAuth } from "../firebase/firebase-config"
 
 export default function Home() {
   return (
@@ -9,7 +10,8 @@ export default function Home() {
       </Head>
 
       <main>
-          <h1>Relevés CSV</h1>
+        <h1>Relevés CSV</h1>
+        
       </main>
 
     </div>
