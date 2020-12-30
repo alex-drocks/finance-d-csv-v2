@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "start": "next dev",
     "build": "npm run clean && next build && next export",
-    "start": "next start",
+    "serve": "next start",
     "clean": "npx rimraf .next"
     },
   "dependencies": {
